@@ -1,0 +1,103 @@
+"Phrases"
+{
+	"Panel title plant"
+	{
+		"ru"	"Выберите провод:"
+	}
+
+	"T Panel hint"
+	{
+		"ru"	"\n \nЕсли вы не выберите провод, то он будет\nвыбран случайно после установки бомбы.\n "
+	}
+
+	"CT Panel hint"
+	{
+		"ru"	"\n \nВы можете выбрать провод,\nчтобы быстро разминировать бомбу.\n "
+	}
+
+	"Panel wire 1"
+	{
+		"ru"	"Красный"
+	}
+
+	"Panel wire 2"
+	{
+		"ru"	"Синий"
+	}
+
+	"Panel wire 3"
+	{
+		"ru"	"Зеленый"
+	}
+
+	"Panel wire 4"
+	{
+		"ru"	"Желтый"
+	}
+
+	"Panel exit"
+	{
+		"ru"	"Выход"
+	}
+
+	"Prefix"
+	{
+		"ru"	"[MDefuse] "
+	}
+
+	"Chat correct wire is cut"
+	{
+		"#format"	"{1:N},{2:t}"
+		"ru"	"Игрок {1} перерезал правильный {2} провод"
+	}
+
+	"Chat incorrect wire is cut"
+	{
+		"#format"	"{1:N},{2:t},{3:t}"
+		"ru"	"Игрок {1} перерезал неправильный {2} провод. Правильный был {3}"
+	}
+
+	"Chat successful correct wire is torn"
+	{
+		"#format"	"{1:N},{2:t}"
+		"ru"	"Игрок {1} удачно вырвал правильный {2} провод"
+	}
+
+	"Chat correct wire is failed torn"
+	{
+		"#format"	"{1:N},{2:t}"
+		"ru"	"Игрок {1} неудачно вырвал правильный {2} провод"
+	}
+
+	"Chat incorrect wire is torn"
+	{
+		"#format"	"{1:N},{2:t},{3:t}"
+		"ru"	"Игрок {1} вырвал неправильный {2} провод. Правильный был {3}"
+	}
+
+	"Chat wire selected"
+	{
+		"#format"	"{1:t}"
+		"ru"	"Вы выбрали {1} провод"
+	}
+
+	"Chat wire 1"
+	{
+		"ru"	"красный"
+	}
+
+	"Chat wire 2"
+	{
+		"ru"	"синий"
+	}
+
+	"Chat wire 3"
+	{
+		"ru"	"зеленый"
+	}
+
+	"Chat wire 4"
+	{
+		"ru"	"желтый"
+	}
+}

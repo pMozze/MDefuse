@@ -108,23 +108,23 @@ public int bombMenuHandler(Menu hMenu, MenuAction iAction, int iClient, int iIte
 							if (g_bIsHaveDefuseKit) {
 								if (g_iWire == iItem) {
 									SetEntPropFloat(iBombEntity, Prop_Send, "m_flDefuseCountDown", 0.0);
-									PrintToChat(iClient, "%t%t", "Prefix", "Chat correct wire is cut", iClient, szWire);
+									PrintToChatAll("%t%t", "Prefix", "Chat correct wire is cut", iClient, szWire);
 								} else {
 									SetEntPropFloat(iBombEntity, Prop_Send, "m_flC4Blow", 0.0);
-									PrintToChat(iClient, "%t%t", "Prefix", "Chat incorrect wire is cut", iClient, szWire, szCorrectWire);
+									PrintToChatAll("%t%t", "Prefix", "Chat incorrect wire is cut", iClient, szWire, szCorrectWire);
 								}
 							} else {
 								if (g_iWire == iItem) {
 									if (GetRandomInt(0, 1)) {
 										SetEntPropFloat(iBombEntity, Prop_Send, "m_flDefuseCountDown", 0.0);
-										PrintToChat(iClient, "%t%t", "Prefix", "Chat successful correct wire is torn", iClient, szWire);
+										PrintToChatAll("%t%t", "Prefix", "Chat successful correct wire is torn", iClient, szWire);
 									} else {
 										SetEntPropFloat(iBombEntity, Prop_Send, "m_flC4Blow", 0.0);
-										PrintToChat(iClient, "%t%t", "Prefix", "Chat correct wire is failed torn", iClient, szWire);
+										PrintToChatAll("%t%t", "Prefix", "Chat correct wire is failed torn", iClient, szWire);
 									}
 								} else {
 									SetEntPropFloat(iBombEntity, Prop_Send, "m_flC4Blow", 0.0);
-									PrintToChat(iClient, "%t%t", "Prefix", "Chat incorrect wire is torn", iClient, szWire, szCorrectWire);
+									PrintToChatAll("%t%t", "Prefix", "Chat incorrect wire is torn", iClient, szWire, szCorrectWire);
 								}
 							}
 						}

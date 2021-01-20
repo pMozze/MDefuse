@@ -35,7 +35,7 @@ public void onBombPlanted(Event hEvent, const char[] szName, bool bDontBroadCast
 }
 
 public void onBombAbort(Event hEvent, const char[] szName, bool bDontBroadCast) {
-	CancelClientMenu(GetClientOfUserId(hEvent.GetInt("userid")));
+	CancelClientMenu(GetClientOfUserId(hEvent.GetInt("userid")), true);
 }
 
 public void showBombPanel(int iClient, int iTime) {
